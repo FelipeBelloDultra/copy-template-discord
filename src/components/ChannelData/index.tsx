@@ -23,13 +23,14 @@ const ServerName: React.FC = () => {
             key={n}
             author="Felipe Bello"
             date="18/02/2020"
-            content="Hoje não é meu aniversário!"
+            content="Template desenvolvido no vídeo da Rocketseat!"
           />
         ))}
 
         <ChannelMessage
-          author="João Victor"
+          author="Bot do Server"
           date="18/02/2020"
+          hasMention
           isBot
           content={
             <>

@@ -22,13 +22,17 @@ const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
 const UserList: React.FC = () => {
   return (
     <Container>
-      <Role> Disponivel - 1 </Role>
+      <Role> Disponivel - 2 </Role>
       <UserRow nickname="Felipe Bello" />
+      <UserRow nickname="Bot do Servidor" isBot />
 
-      <Role> Offline - 5 </Role>
-      <UserRow nickname="fluxo33" />
-      <UserRow nickname="Janisckinho" isBot />
-      <UserRow nickname="João Victor" />
+      <Role> Offline - 6 </Role>
+      <UserRow nickname="User 1" />
+      <UserRow nickname="User 2" />
+      <UserRow nickname="User 3" />
+      <UserRow nickname="User 4" />
+      <UserRow nickname="User 5" />
+      <UserRow nickname="User 6" />
     </Container>
   );
 }
