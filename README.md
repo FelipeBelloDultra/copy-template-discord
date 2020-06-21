@@ -2,7 +2,7 @@
 
 Template desenvolvido em um vídeo da [Rocketseat](https://www.linkedin.com/school/rocketseat/)
 
-![Discord Copy](./src/assets/screen.png)
+![Discord Copy](./src/assets/sreen.png)
 
 ## Instalação e modo de uso
 
